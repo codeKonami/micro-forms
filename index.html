@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <script type="module" src="./dist/index.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td>Left</td>
+      <td><input type="number" id="left" value="10" /></td>
+    </tr>
+    <tr>
+      <td>Right</td>
+      <td><input type="number" id="right" value="5" /></td>
+    </tr>
+    <tr>
+      <td>Operator</td>
+      <td>
+        <select id="operator">
+          <option value="add">Add</option>
+          <option value="substract">Substract</option>
+          <option value="multiply">Multiply</option>
+          <option value="pow">Left To the power of Right</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><button id="compute">Launch computation</button></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Result:</td>
+      <td><input type="number" id="result" disabled /></td>
+    </tr>
+  </table>
+</body>
+
+
+</html>
